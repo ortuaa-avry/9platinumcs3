@@ -1,2 +1,2 @@
 # 9platinumcs3
-q1/
+q1
