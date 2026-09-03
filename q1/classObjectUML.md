@@ -17,7 +17,7 @@
 |release|releases the movie by a date|
 |playback|plays the movie by a duration of time|
 ## Class Diagram
-![Class Diagram]()
+![Class Diagram](Images/Screenshot 2026-09-03 132001.png)
 ## Design Explanation
 ### I chose this class because I love movies. I enjoy watching and analyzing them so I believe I have a lot to input in this activity.
 ### The most important property is the title because it tells the most commonly observed specificity of a class.
