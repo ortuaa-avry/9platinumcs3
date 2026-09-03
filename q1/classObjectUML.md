@@ -17,8 +17,7 @@
 |release|releases the movie by a date|
 |playback|plays the movie by a duration of time|
 ## Class Diagram
-![Class Diagram](<img width="1920" height="1080" alt="classDiagram" src="https://github.com/user-attachments/assets/151bc14b-5b6e-44c3-ac0e-1a689faa0b74" />
-)
+![Class Diagram](<img width="358" height="307" alt="image" src="https://github.com/user-attachments/assets/ef4ccd93-3275-4e2d-b98d-9748e3eaad63" />)
 
 ## Design Explanation
 ### I chose this class because I love movies. I enjoy watching and analyzing them so I believe I have a lot to input in this activity.
