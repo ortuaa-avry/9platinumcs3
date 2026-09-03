@@ -12,7 +12,7 @@
 |Availability|boolean|Tells if the movie is available|
 ## Methods
 | Method | Description |
-|---|---|| | |
+|---|---|
 |present|presents the movie if available|
 |release|releases the movie by a date|
 |playback|plays the movie by a duration of time|
