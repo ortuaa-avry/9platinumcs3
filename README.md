@@ -4,3 +4,4 @@
 [ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
 [Chinese Zodiac](q1/zodiacPlatinumOrtua.md)
 [My OOP Seed System](q1/classObjectUML.md)
+[My OOP Seed System II](q1/classAttributesMethods.md)
