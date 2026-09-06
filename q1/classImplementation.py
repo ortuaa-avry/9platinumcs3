@@ -34,7 +34,7 @@ print(f"Movie 1: {movie1.title}, Available: {movie1.availability}")
 print(f"Movie 2: {movie2.title}, Available: {movie2.availability}\n")
 
 #Method on Object 1 only
-movie1.playback()
+movie1.release()
 print()
 
 #Final Status
