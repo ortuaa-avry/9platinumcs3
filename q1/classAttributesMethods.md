@@ -7,4 +7,4 @@
 |Duration|float|Private|Not every viewer is concerned about how long the movie is.|
 |Availability|boolean|Public|It tells whether the movie is available to watch or not.|
 
-![Class Diagram SG5](q1/Images/classDiagramSG5.png)
+![Class Diagram SG5](Images/classDiagramSG5.png)
