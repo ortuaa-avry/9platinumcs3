@@ -7,6 +7,7 @@
 |Duration|float|Private|Not every viewer is concerned about how long the movie is.|
 |Availability|boolean|Public|It tells whether the movie is available to watch or not.|
 
+'''
 +--------------------------------------------+
 | Movie                                      |
 +--------------------------------------------+
@@ -21,16 +22,4 @@
 | + present(title : string)                  |
 | + release()                                |
 +--------------------------------------------+
-
-+--------------------------------------------+
-| ClassName |
-+--------------------------------------------+
-| + publicAttribute : datatype |
-| + publicAttribute : datatype |
-| - privateAttribute : datatype |
-| - privateAttribute : datatype |
-+--------------------------------------------+
-| + method() |
-| + method(parameter : datatype)|
-| + getSomething() |
-+--------------------------------------------+
+'''
