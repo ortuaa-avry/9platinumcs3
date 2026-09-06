@@ -1,8 +1,8 @@
 class Movie:
   def __init__(self, title, genre, availability, director, year, duration):
   #Public Attributes
-    self.title = value1
-    self.genre = value2
+    self.title = title
+    self.genre = genre
     self.availability = availability
   #Private Attributes
     self.__director = director
@@ -11,7 +11,8 @@ class Movie:
 #Method 1
   def playback(self):
     print(f"Now Playing: {self.title} ({self.__year})")
-    print(f"Directed by: {self.__director}, Duration: {self.__duration}hrs")
+    print(f"Directed by: {self.__director}") 
+    print(f"Duration: {self.__duration}hrs")
 #Method 2
   def present(self, new_title):
     self.title = new_title
