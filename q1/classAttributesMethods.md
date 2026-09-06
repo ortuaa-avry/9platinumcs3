@@ -8,16 +8,18 @@
 |Availability|boolean|Public|It tells whether the movie is available to watch or not.|
 
 +--------------------------------------------+
-| Movie |
+| Movie                                      |
 +--------------------------------------------+
-| + Title : string |
-| + Genre : string |
-| + Availability : boolean |
-| - Director : string |
-| - Year : int |
-| - Duration : float |
+| + Title : string                           |
+| + Genre : string                           |
+| + Availability : boolean                   |
+| - Director : string                        |
+| - Year : int                               |
+| - Duration : float                         |
 +--------------------------------------------+
-| + playback() |
-| + present(title : string) |
-| + release() |
+| + playback()                               |
+| + present(title : string)                  |
+| + release()                                |
++--------------------------------------------+
+|                                            |
 +--------------------------------------------+
