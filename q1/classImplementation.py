@@ -17,7 +17,7 @@ class Movie:
   def present(self, new_title):
     self.title = new_title
     self.availability = True
-    print(f"Movie title is updated to: {self.title}")
+    print(f"The movie playing is now: {self.title}")
 #Method 3
   def release(self):
     self.availability = True
