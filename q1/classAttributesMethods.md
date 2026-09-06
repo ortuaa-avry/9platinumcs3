@@ -8,6 +8,7 @@
 |Availability|boolean|Public|It tells whether the movie is available to watch or not.|
 
 +--------------------------------------------+
+
 | Movie                                      |
 +--------------------------------------------+
 | + Title : string                           |
@@ -21,5 +22,6 @@
 | + present(title : string)                  |
 | + release()                                |
 +--------------------------------------------+
+
 |                                            |
 +--------------------------------------------+
