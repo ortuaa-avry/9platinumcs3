@@ -18,6 +18,6 @@
 | - Duration : float |
 +--------------------------------------------+
 | + playback() |
-| + present(title : string)|
+| + present(Title : string) |
 | + release() |
 +--------------------------------------------+
