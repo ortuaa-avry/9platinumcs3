@@ -28,7 +28,7 @@ movie1 = Movie("Mamma Mia!", "Musical/Comedy", False, "Phyllida Llyod", 2008, 1.
 movie2 = Movie("The Devil Wears Prada", "Comedy/Drama", True, "David Frankel", 2006, 1.49)
 
 #Status before object 1 was changed
-print("INITIAL STATUS")
+print("BEFORE:")
 print(f"Movie 1: {movie1.title}, Available: {movie1.availability}")
 print(f"Movie 2: {movie2.title}, Available: {movie2.availability}\n")
 
@@ -37,6 +37,6 @@ movie1.playback()
 print()
 
 #Final Status
-print("FINAL STATUS")
+print("AFTER:")
 print(f"Movie 1: {movie1.title}, Available: {movie1.availability}")
 print(f"Movie 2: {movie2.title}, Available: {movie2.availability}")
