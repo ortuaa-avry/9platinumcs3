@@ -21,3 +21,16 @@
 | + present(title : string)                  |
 | + release()                                |
 +--------------------------------------------+
+
++--------------------------------------------+
+| ClassName |
++--------------------------------------------+
+| + publicAttribute : datatype |
+| + publicAttribute : datatype |
+| - privateAttribute : datatype |
+| - privateAttribute : datatype |
++--------------------------------------------+
+| + method() |
+| + method(parameter : datatype)|
+| + getSomething() |
++--------------------------------------------+
