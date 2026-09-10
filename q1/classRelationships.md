@@ -6,15 +6,15 @@
 Class: Movie
 Description: A movie is a series of visual images shown rapidly in succession to create the illusion of a moving picture, typically telling a story or sharing an idea with sound.
 ## New Related Class
-Class: Song
-Description: A song is a short piece of music that includes words, vocals, and melody.
+Class: Watchlist
+Description: A Watchlist represents a collection of movies that a user wants to watch. It has its own name and owner, and it can contain multiple Movie objects.
 ## Association
 Relationship: Has-A
-Explanation: Most movies have songs because they enhance the emotions that are being portrayed on a specific scene.
+Explanation: A watchlist needs actual movies to make up its collection.
 ## Multiplicity
 
 Multiplicity: 0..*
-Explanation: Both classes can have multiple similarities.
+Explanation: This means one Watchlist can contain zero or more Movie objects. A watchlist can initially be empty, and movies can be added later. This multiplicity also fits the requirement to practice using a Python list to store multiple object references.
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](Images/classRelationshipDiagram.png)
 ## Python Implementation
