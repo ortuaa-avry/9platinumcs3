@@ -42,6 +42,6 @@ print("AFTER:")
 print(f"Movie 1: {movie1.title}, Available: {movie1.availability}")
 print(f"Movie 2: {movie2.title}, Available: {movie2.availability}")
 
-class Movie:
+class Song:
   def __init__(self, title, genre, availability, composer, year, duration):
     self.Song = None
