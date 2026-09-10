@@ -5,3 +5,4 @@
 * [Chinese Zodiac](q1/zodiacPlatinumOrtua.md)
 * [My OOP Seed System](q1/classObjectUML.md)
 * [My OOP Seed System II](q1/classAttributesMethods.md)
+* [My OOP Seed System III](q1/classRelationships.md)
