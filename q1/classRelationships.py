@@ -48,7 +48,7 @@ movie2 = Movie("The Devil Wears Prada","Comedy/Drama",True,"David Frankel",2006,
 movie3 = Movie("Mary Poppins Returns","Musical/Fantasy",True,"Rob Marshall",2018,2.10)
 
 #Watchlist
-watchlist1 = Watchlist("My Watchlist", "Movies I love, I Like")
+watchlist1 = Watchlist("My Watchlist: Movies I love, I like", "UserH2SO4")
 
 # BEFORE RELATIONSHIP
 print("--- BEFORE RELATIONSHIP ---")
