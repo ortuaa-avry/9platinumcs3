@@ -24,8 +24,8 @@ Explanation: This means one Watchlist can contain zero or more Movie objects. A 
 ## Object Relationship Diagram
 ![Object Relationship Diagram](Images/objectRelationshipDiagram.png)
 ## Analysis
-### My two classes have a title, genre, and their availabilities can be determined.
-### I chose 0..* because my classes can have multiple similar attributes.
-### I implemented a relationship in python by connecting two classes through their similar attributes.
-### Why did you store an object reference instead of copying its data?
-### A list is appropriate for a many relationship because it groups multiple connected items together in a single container.
+### The association between my two classes is that a Watchlist contains Movie objects. The Watchlist is used to keep track of movies that a user wants to watch. In my system, watchlist1 contains movie1, movie2, and movie3. This connects the Watchlist object to the individual Movie objects.
+### I chose a 1 : 0..* multiplicity between Watchlist and Movie. This means that one Watchlist can contain zero or more Movie objects. This is appropriate because a watchlist can be empty when it is first created and can have many movies added to it later. It also allows my program to demonstrate a one-to-many relationship.
+### I implemented the relationship by creating a movies list inside the Watchlist class. The list is initialized with self.movies = []. I created an add_movie() method that adds an actual Movie object to the list using self.movies.append(movie). This allows the Watchlist to keep references to multiple Movie objects.
+### I stored an object reference because the relationship should connect the actual objects instead of duplicating their information. For example, when I use watchlist1.add_movie(movie1), the actual movie1 object is stored inside the Watchlist's movies list. Because of this, the Watchlist can access movie1's attributes and methods, such as movie.playback().
+### A list is appropriate because one Watchlist can contain many Movie objects. The movies list stores the actual references to movie1, movie2, and movie3. I can use a loop to go through each Movie object in the list. This makes it easy to manage and display all the movies in the Watchlist.
