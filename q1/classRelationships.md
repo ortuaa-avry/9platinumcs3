@@ -28,4 +28,4 @@ Explanation: Both classes can have multiple similarities.
 ### I chose 0..* because my classes can have multiple similar attributes.
 ### I implemented a relationship in python by connecting two classes through their similar attributes.
 ### Why did you store an object reference instead of copying its data?
-### If your relationship uses many, why is a list appropriate?
+### A list is appropriate for a many relationship because it groups multiple connected items together in a single container.
