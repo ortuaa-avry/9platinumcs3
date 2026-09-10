@@ -16,13 +16,13 @@ Explanation: Most movies have songs because they enhance the emotions that are b
 Multiplicity: 0..*
 Explanation: Both classes can have multiple similarities.
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram](Images/classRelationshipDiagram.png)
 ## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](Images/relationshipTestRun.png)
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+![Object Relationship Diagram](Images/objectRelationshipDiagram.png)
 ## Analysis
 ### My two classes have a title, genre, and their availabilities can be determined.
 ### I chose 0..* because my classes can have multiple similar attributes.
