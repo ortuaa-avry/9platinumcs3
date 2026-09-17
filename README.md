@@ -1,4 +1,6 @@
 # 9platinumcs3
+# Avryelle B. Ortua
+# 9-Platinum
 ## Quarter 1 Activities
 * [Computational Thinking Exercise](q1/ctskillsPlatinumOrtua.md)
 * [ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
