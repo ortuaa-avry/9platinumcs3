@@ -8,18 +8,18 @@ Parent: Movie
 Child: AnimatedMovie
 Explanation: AnimatedMovie is a type of Movie because it has the same basic characteristics as a regular movie. It has a title, genre, availability, director, year, and duration. It can also use the methods inherited from the Movie class, such as playback(), present(), and release(). The AnimatedMovie class adds an animation_studio attribute and a show_studio() method for information specific to animated movies.
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](Images/inheritanceDiagram.png)
 ## Composition/Aggregation
 Relationship: Aggregation
 Explanation: The relationship between Watchlist and Movie is aggregation because a Watchlist contains Movie objects, but the Movie objects can exist independently. In my program, the Movie objects are created before they are added to the Watchlist. This means the Watchlist does not create or own the entire lifetime of the Movie objects. If the Watchlist is removed, the Movie objects can still exist independently.
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](Images/advancedClassDiagram.png)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](Images/advancedTestRun.png)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](Images/advancedObjectDiagram.png)
 
 ## Reflection
 Answers:
