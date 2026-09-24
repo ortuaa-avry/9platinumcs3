@@ -8,3 +8,4 @@
 * [My OOP Seed System](q1/classObjectUML.md)
 * [My OOP Seed System II](q1/classAttributesMethods.md)
 * [My OOP Seed System III](q1/classRelationships.md)
+* [My OOP Seed System IV](q1/advancedRelationships.md)
