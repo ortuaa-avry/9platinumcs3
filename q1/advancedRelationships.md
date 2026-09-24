@@ -2,16 +2,16 @@
 ## Previous Activities
 [classAttrib](classAttributesMethods.md)
 [classRel](classRelationships.md)
-## Existing System Description: My existing system consists of two classes: Movie and Watchlist. The Movie class represents a movie and contains attributes such as title, genre, availability, director, year, and duration. It also has methods such as playback(), present(), and release(). The Watchlist class represents a collection of movies and can contain zero or more Movie objects.
+## Existing System Description: My existing system consists of two classes: Movie and Watchlist. The Movie class represents a movie and contains attributes such as title, genre, availability, director, year, and duration. It also has methods such as playback(), present(), and release(). The Watchlist class represents a collection of movies. It can contain zero or more Movie objects. For Part IV, I added an AnimatedMovie child class that inherits from the Movie class. I also changed the relationship between Watchlist and Movie from a general Association into Aggregation.
 ## Inheritance Relationship
 Parent: Movie
 Child: AnimatedMovie
-Explanation: AnimatedMovie is a type of Movie because it has the same basic characteristics as a regular movie. It has a title, genre, availability, director, year, and duration. It can also use the methods inherited from the Movie class, such as playback(), present(), and release(). The AnimatedMovie class adds an animation_studio attribute and a show_studio() method for information specific to animated movies.
+Explanation: I chose Movie as the parent class and AnimatedMovie as the child class because an animated movie is a type of movie. The AnimatedMovie class inherits the common attributes and methods of the Movie class. It can use attributes such as title, genre, and availability, as well as methods such as playback(), present(), and release(). The AnimatedMovie class also has its own additional attribute called animation_studio and its own method called show_studio(). For my example, I used Barbie and the Diamond Castle as an AnimatedMovie object. This demonstrates how a specific animated movie can inherit the characteristics of the general Movie class.
 ## Inheritance UML
 ![Inheritance](Images/inheritanceDiagram.png)
 ## Composition/Aggregation
 Relationship: Aggregation
-Explanation: The relationship between Watchlist and Movie is aggregation because a Watchlist contains Movie objects, but the Movie objects can exist independently. In my program, the Movie objects are created before they are added to the Watchlist. This means the Watchlist does not create or own the entire lifetime of the Movie objects. If the Watchlist is removed, the Movie objects can still exist independently.
+Explanation: The relationship between Watchlist and Movie is Aggregation because a Watchlist contains Movie objects, but the Movie objects can exist independently. In my program, the Movie objects are created separately before they are added to the Watchlist. The Watchlist only stores references to these existing Movie objects. This means that the Watchlist does not control the entire lifetime of the Movie objects. If the Watchlist is removed, the Movie objects can still exist independently.
 ## Advanced UML Diagram
 ![Advanced UML](Images/advancedClassDiagram.png)
 ## Python Implementation
